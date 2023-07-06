@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+main h1, h2, h3{
+    text-align: center;
+}
+#video{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+#video section{
+    position:relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+#video section iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#descripcionvideo{
+    width: 90%;
+    max-width: 900px;
+    margin: auto; 
+}
+
+/*****************************
+temas relacionados*/
+#temasrelacionados{
+    width: 100%;
+}
+#temasrelacionados article{
+    width: 90%;
+    max-width: 1000px;
+    border-style: dotted; box-sizing: border-box;
+    margin: auto;
+   
+}
+#temasrelacionados article section{
+    display: inline-table;
+    width: 20%; min-width: 100px;
+    max-width: 350px; margin: auto;
+}
+#temasrelacionados section img, h4, p{
+    width: 100%; 
+    display: block;
+}

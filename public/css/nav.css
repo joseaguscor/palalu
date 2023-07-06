@@ -1,0 +1,35 @@
+/******************************
+Barra de navegación
+*************************************/
+
+nav {
+    background-color: #f8781c;
+    width: 100%;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: orange;
+}
+
+.navbar-brand {
+    color: white;
+    border-right-style: double;
+    padding-right: 5%;
+}
+
+/***************************************************
+Encabezado
+************************************************/
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}

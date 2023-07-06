@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Videos - Palalú Kids</title>
+
+    <!--Bootstrap 5 CDN-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Estilos css-->
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2>Palalú Kids</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:3000/">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:3000/videos">VIDEOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE PALALÚ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <img src="./img/portada.jpg" alt="portada-videos-palalú">
+    </header>
+
+    <main>
+        <hr>
+
+        <h2>Video mas reciente</h2>
+
+
+        <article id="ultimovideo">
+
+            <!--Mostrar imagen miniatura de img/vistasminiatura)-->
+            <section>
+                <img src="./img/vistasminiatura/misombrerito.jpg" alt="">
+                <!--Enviar al video selecionado-->
+                <a href="http://localhost:3000/video">
+                    <p class="textovervideo">
+                        VER VIDEO
+                    </p>
+                </a>
+            </section>
+
+            <!--Mostrar información del video mas reciente-->
+            <section id="infovideoreciente">
+
+                <article>
+
+                    <h2>Acá va el Título del video </h2>
+
+                    <p>
+                        Acá va la descripción del video
+                    </p>
+
+                    <p>VER VIDEO</p>
+                </article>
+            </section>
+
+        </article>
+
+
+        <hr>
+        <h2>Todos los videos</h2>
+
+        <article id="todosvideos">
+
+            <section>
+                <img src="./img/vistasminiatura/misombrerito.jpg" alt="">
+            </section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+        </article>
+    </main>
+
+</body>
+
+</html>
